@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .gambar1 {
+            width: 700px;
+            height: 300px;
+            position: absolute;
+            top: 50px;
+            left: 35px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+        }
+
+        .gambar2 {
+            width: 400px;
+            height: 150px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50px;
+            left:810px;
+            /* margin-top: 50px;
+            margin-left: 800px;
+            border-radius: 2px; */
+        }
+
+        .gambar3 {
+            width: 400px;
+            height: 145px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 180px;
+            left:810px;
+            /* margin-top: 5px;
+            margin-left: 800px;
+            border-radius: 2px; */
+        }
+
+        .icon {
+            position: relative;
+            bottom: 50px;
+            right: 30px;
+        }
+
+        .icon1 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 1150px;
+            border-radius: 10px;
+        }
+
+        .icon2 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 1030px;
+            border-radius: 10px;
+        }
+
+        .icon3 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 910px;
+            border-radius: 10px;
+        }
+
+        .icon4 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 785px;
+            border-radius: 10px;
+        }
+
+        .icon5 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 670px;
+            border-radius: 10px;
+        }
+
+        .icon6 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 550px;
+            border-radius: 10px;
+        }
+
+        .icon7 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 440px;
+            border-radius: 10px;
+        }
+
+        .icon8 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 330px;
+            border-radius: 10px;
+        }
+
+        .icon9 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 215px;
+            border-radius: 10px;
+        }
+
+        .icon10 {
+            width: 50px;
+            height: 50px;
+            border: 2px rgb(212, 212, 212) solid;
+            position: absolute;
+            top: 390px;
+            left: 100px;
+            border-radius: 10px;
+        }
+
+        .p1 p {
+            width: 100px;
+            color: black;
+            position: relative;
+            top: 394px;
+            left: 1130px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p2 p {
+            width: 200px;
+            color: black;
+            position: relative;
+            top: 2px;
+            left: -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p3 p {
+            width: 120px;
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 2px;
+            left: -38px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p4 p {
+            width: 100px;
+            text-align: center;
+            justify-content: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p5 p {
+            width: 150px;
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p6 p {
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p7 p {
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -7px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p8 p {
+            width: 100px;
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p9 p {
+            width: 100px;
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+
+        .p10 p {
+            width: 100px;
+            text-align: center;
+            color: black;
+            position: relative;
+            top: 0px;
+            left: -25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gambar1">
+        <img style="width: 770px; height: 250px;" src="gambar1.png" alt="">
+    </div>
+    <div class="gambar2">
+        <img style="width: 410px; height: 125px;" src="Gambar WhatsApp 2024-09-17 pukul 11.39.15_0bcb4db4.jpg" alt="">
+    </div>
+    <div class="gambar3">
+        <img style="width: 410px; height: 120px;" src="Gambar WhatsApp 2024-09-17 pukul 11.39.15_50998cc2.jpg" alt="">
+    </div>
+
+    <div class="icon">
+        <div class="icon1"></div>
+        <img style="cursor: pointer; width: 38px; height: 45px; border-radius: 10px; position: relative; left: 1158px; top: 394px;" src="semuapromo.png" alt="">
+            <div class="p1">
+                <p>Semua Promo</p>
+            </div>
+        <div class="icon2">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="shopee barokah.png" alt="">
+            <div class="p2">
+                <p>Shopee Barokah </p>
+            </div>
+        </div>
+        <div class="icon3">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="gratisongkirdanvoucher.png" alt="">
+            <div class="p3">
+                <p>Gratis Ongkir dan Voucher</p>
+            </div>
+        </div>
+        <div class="icon4">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="termurahdishopee.png" alt="">
+            <div class="p4">
+                <p>Termurah di Shopee</p>
+            </div>
+        </div>
+        <div class="icon5">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="bayarditempat.png" alt="">
+            <div class="p5">
+                <p>Bayar Di Tempat</p>
+            </div>
+        </div>
+        <div class="icon6">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="shopeesupermarket.png" alt="">
+            <div class="p6">
+                <p>Shopee Supermarket</p>
+            </div>
+        </div>
+        <div class="icon7">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="inFashion.png" alt="">
+            <div class="p7">
+                <p>inFashion</p>
+            </div>
+        </div>
+        <div class="icon8">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="pulsatagihantiket.png" alt="">
+            <div class="p8">
+                <p>Pulsa, Tagihan, dan Tiket</p>
+            </div>
+        </div>
+        <div class="icon9">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="shopeemall.png" alt="">
+            <div class="p9">
+                <p>Shopee Mall</p>
+            </div>
+        </div>
+        <div class="icon10">
+            <img style=" cursor: pointer; width: 45px; height: 45px; border-radius: 10px; position: relative; left: 3px; top: 2px;" src="shopeepilihlokal.png" alt="">
+            <div class="p10">
+                <p>Shopee Pilih Lokal</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
