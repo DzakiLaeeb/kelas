@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    flex: 1;
+    text-align: left;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.intro .subtitle {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.intro .buttons button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.intro .buttons button:hover {
+    background-color: #555;
+}
+
+.profile img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about .container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills, .about-me {
+    flex: 1;
+    text-align: left;
+}
+
+.skills h2, .about-me h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 10px;
+}
+
+.progress {
+    background-color: #333;
+    height: 10px;
+}
+
+.about-me button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about-me button:hover {
+    background-color: #555;
+}
