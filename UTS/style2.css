@@ -1,0 +1,341 @@
+.container-1{
+    background-image: url("img/bg-masthead.jpg");
+    height: 750px;
+    align-content: center;
+}
+.container-1 h1{
+    text-align: center;
+    font-size: 4.5rem;
+    
+}
+.container-1 h3{
+    font-style: italic;
+    text-align: center;
+}
+.btn1{
+ margin-top: 50px;
+ width: 150px;
+ height: 50px;
+}
+	
+	
+.container-2{
+	margin-top: 200px;
+}
+.btn2{
+  width: 150px;
+ height: 50px;
+}
+
+
+.container-3{
+    display: block;
+    background: #1678a2;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+	margin-top: 200px
+}
+.judul{
+    color: rgb(255, 200, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sub-judul{
+    font-size: 3rem;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    color: white;
+}
+.lingkaran{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin:auto;
+    background: white;
+    margin-bottom: 50px;
+}
+.text{
+    margin-top: 10px;
+}
+.text h3{
+    font-size: 26px;
+}
+.text p{
+    font-size: 21px;
+}
+
+
+.container-4{
+background-image: url("img/bg-callout.jpg");
+    height: 750px;
+    align-content: center;
+}
+.container-4 h2{
+    left: 50%;
+    font-size: 4rem;
+}
+.btn3{
+ margin-top:30px;
+ width: 150px;
+ height: 50px;
+}
+
+
+.container-5{
+    height: 1200px;
+    display: block;
+    align-content: center;
+    margin: auto;
+   
+}
+.paragraf {
+  color: rgb(255, 200, 0);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-5 h3{
+    font-size: 3rem;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.container1-img{
+    display: flex;
+    justify-content: center;
+}
+.container2-img{
+    display: flex;
+    justify-content: center;
+}
+.text-img{
+    margin-top: 300px;
+    margin-left: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.img-1{
+    background-image: url("img/portfolio-1.jpg");
+    height: 400px;
+    width: 400px;
+}
+.img-2{
+    background-image: url("img/portfolio-2.jpg");
+    width: 400px;
+    height: 400px;
+}
+.img-3{
+    background-image: url("img/portfolio-3.jpg");
+    height: 400px;
+    width: 400px;
+}
+.img-4{
+    background-image: url("img/portfolio-4.jpg");
+    height: 400px;
+    width: 400px;
+}
+
+
+.container-6{
+    background-color: #1678a2;
+    height: 300px;
+    display: block;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.btn4 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-content: center;
+}
+.btn5{
+  width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+
+.container-7{
+  background-image: url("img/map.jpg");
+  height: 500px;
+  }
+.container-round{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
+   .round-map{
+	   width: 50px;
+	   height: 50px;
+	   border-radius: 100px;   
+	   margin-top: 475px;
+	   background: #1678a2;
+  }
+
+
+.container-8{
+    text-align: center;
+    margin-top: 75px;
+}
+
+
+@media (max-width: 780px){
+    .container-1{
+     width: 400px;
+     height: 300px;
+    }
+   .container1-img{
+     width: 400px;
+     height: 300px;
+   }
+    .container-1 h1{
+      font-size: 30px;
+    }
+    .container-1 h3{
+      font-size: 15px;
+    }
+    .btn1{
+      width: 150px;
+      height: 35px;
+    }
+    .btn2{
+      width: 150px;
+      height: 35px;
+    }
+    .container-3{
+      height: 700px;
+      width: 400px;
+    }
+    .judul{
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  .sub-judul{
+      font-size: 2rem;
+      color: white;
+  }
+  .lingkaran{
+      width: 85px;
+      height: 85px;
+  }
+  .text h3{
+      font-size: 16px;
+  }
+  .text p{
+      font-size: 11px;
+  }
+  .container-4{
+     width: 400px;
+     height: 300px;
+    }
+   .container4-img{
+     width: 400px;
+     height: 300px;
+   }
+    .container-4 h2{
+      font-size: 30px;
+    }
+    .container-4 h3{
+      font-size: 30px;
+    }
+    .btn3{
+      width: 150px;
+      height: 35px;
+    }
+    .container-5{
+      height: 600px;
+  }
+  .paragraf {
+    font-size: 13px;
+  }
+  
+  .container-5 h3{
+      font-size: 2rem;
+  }
+  .text-img{
+    margin-top: 80px;
+    margin-left: 7%;
+  }
+  .img-1{
+      height: 150px;
+      width: 150px;
+  }
+  .img-2{
+      width: 150px;
+      height: 150px;
+  }
+  .img-3{
+      height: 150px;
+      width: 150px;
+  }
+  .img-4{
+      height: 150px;
+      width: 150px;
+  }
+  .text-img h5{
+    font-size: 1px;
+    
+  }
+  .text-img h5{
+  font-size: 1px;
+  }
+  .text-img h5{
+  font-size: 1px;
+  }
+  .text-img h5{
+  font-size: 1px;
+  }
+  .text-img p{
+    font-size: 1px;
+    
+  }
+  .text-img p{
+  font-size: 1px;
+  }
+  .text-img p{
+  font-size: 1px;
+  }
+  .text-img p{
+  font-size: 1px;
+  }
+  .btn4 {
+      width: 150px;
+      height: 35px;
+  }
+  .btn5{
+      width: 150px;
+      height: 35px;
+  }
+  .container7-img{
+     width: 400px;
+     height: 300px;
+  }
+  .round-map{
+         width: 25px;
+         height: 25px;
+         margin-top: 485px;
+    }
+  }
+  
