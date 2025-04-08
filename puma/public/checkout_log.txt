@@ -1,0 +1,6 @@
+2025-04-05 09:04:04 - Received checkout data: {"items":[{"nama_produk":"PUMA PALERMO I","harga":555000,"quantity":1,"image":"http:\/\/127.0.0.1:8000\/images\/black.jpeg"}],"total":555000}
+2025-04-05 09:04:04 - INNER ERROR: Unknown column 'quantity' in 'field list'
+2025-04-05 09:04:04 - ERROR: Checkout error: Unknown column 'quantity' in 'field list'
+2025-04-05 09:06:11 - Received checkout data: {"items":[{"nama_produk":"PUMA PALERMO I","harga":555000,"quantity":1,"image":"http:\/\/127.0.0.1:8000\/images\/black.jpeg"}],"total":555000}
+2025-04-05 09:06:11 - INNER ERROR: Unknown column 'quantity' in 'field list'
+2025-04-05 09:06:11 - ERROR: Checkout error: Unknown column 'quantity' in 'field list'
